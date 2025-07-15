@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#search {
+  margin: 20px;
+  padding: 10px;
+  width: 50%;
+  font-size: 16px;
+}
+
+#flagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flag-card {
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.flag-card:hover {
+  transform: scale(1.05);
+}
+
+.flag-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.flag-card p {
+  margin-top: 10px;
+  font-weight: bold;
+}
